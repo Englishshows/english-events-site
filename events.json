@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "title": "Hadestown (English Musical)",
+      "date": "2025-07-20",
+      "venue": "Royal Theater Carré",
+      "description": "Award-winning musical retelling the Orpheus myth. Performed in English with live orchestra."
+    },
+    {
+      "title": "Mic Drop Comedy Night",
+      "date": "2025-07-21",
+      "venue": "Two Chefs FoodBar West",
+      "description": "Weekly English stand-up comedy hosted by international comics."
+    },
+    {
+      "title": "Improv at Boom Chicago",
+      "date": "2025-07-23",
+      "venue": "Boom Chicago",
+      "description": "English-language improv comedy show with rotating performers."
+    },
+    {
+      "title": "Storytelling at Mezrab",
+      "date": "2025-07-25",
+      "venue": "Mezrab",
+      "description": "True personal stories and performances told in English."
+    }
+  ]
+}

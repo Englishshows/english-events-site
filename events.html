@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events | Amsterdam English Events</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Upcoming Events</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="event-list">
+      <p>Loading events...</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Amsterdam English Events</p>
+  </footer>
+
+  <script>
+    fetch('events.json')
+      .then(response => response.json())
+      .then(data => {
+        const eventList = document.getElementById('event-list');
+        eventList.innerHTML = '';
+        data.events.forEach(event => {
+          const div = document.createElement('div');
+          div.className = 'event';
+          div.innerHTML = `
+            <h3>${event.title}</h3>
+            <p><strong>Date:</strong> ${event.date}</p>
+            <p><strong>Venue:</strong> ${event.venue}</p>
+            <p>${event.description}</p>
+          `;
+          eventList.appendChild(div);
+        });
+      })
+      .catch(error => {
+        document.getElementById('event-list').innerHTML = '<p>Error loading events.</p>';
+        console.error(error);
+      });
+  </script>
+</body>
+</html>
