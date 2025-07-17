@@ -1,28 +1,25 @@
 {
   "events": [
     {
-      "title": "Hadestown (English Musical)",
-      "date": "2025-07-20",
-      "venue": "Royal Theater Carré",
-      "description": "Award-winning musical retelling the Orpheus myth. Performed in English with live orchestra."
+      "title": "Expats vs Holland – English Stand‑up Comedy Amsterdam",
+      "date": "2025-07-17T20:00:00",
+      "venue": "Café De Plakhoek, Amsterdam",
+      "description": "A humorous clash of cultures in this English‑language comedy night.",
+      "link": "https://www.eventbrite.com/e/expats-vs-holland-english-stand-up-comedy-amsterdam-tickets-737995804317"
     },
     {
-      "title": "Mic Drop Comedy Night",
-      "date": "2025-07-21",
-      "venue": "Two Chefs FoodBar West",
-      "description": "Weekly English stand-up comedy hosted by international comics."
+      "title": "Clink Comedy ALL STARS – Stand‑up Comedy in English",
+      "date": "2025-07-18T19:30:00",
+      "venue": "ClinkNOORD, Van der Pekstraat, Amsterdam Noord",
+      "description": "Premier English comedy night featuring top local and international comedians.",
+      "link": "https://www.eventbrite.com/e/clink-comedy-all-stars-standup-comedy-in-english-tickets-784393922337"
     },
     {
-      "title": "Improv at Boom Chicago",
-      "date": "2025-07-23",
-      "venue": "Boom Chicago",
-      "description": "English-language improv comedy show with rotating performers."
-    },
-    {
-      "title": "Storytelling at Mezrab",
-      "date": "2025-07-25",
-      "venue": "Mezrab",
-      "description": "True personal stories and performances told in English."
+      "title": "Oh My Word – English Stand‑up Comedy Night",
+      "recurrence": "weekly",
+      "venue": "Bos en Lommer, Amsterdam",
+      "description": "Weekly English‑language stand‑up comedy night featuring NL and international comics.",
+      "link": "https://www.eventbrite.com/e/oh-my-word-english-standup-comedy-night-tickets-1132609608829"
     }
   ]
 }
