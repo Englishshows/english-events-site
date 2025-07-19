@@ -4,21 +4,21 @@
       "title": "Hadestown \u2013 English Musical at Carr\u00e9",
       "date": "2025-07-18T19:30:00",
       "venue": "Koninklijk Theater Carr\u00e9, Amstel 115, Amsterdam",
-      "description": "Award\u2011winning English\u2011language production of Hadestown, running June\u202f20\u2013Aug\u202f24.",
+      "description": "Award\u2011winning English\u2011language production of Hadestown, running July\u202f16\u2013Aug\u202f24.",
       "link": "https://carre.nl/en/show/hadestown"
     },
     {
       "title": "Everything Must Go \u2013 English with Dutch subtitles",
       "date": "2025-07-17T19:00:00",
       "venue": "Internationaal Theater Amsterdam, Grote Zaal",
-      "description": "Immersive supermarket installation by Dries Verhoeven, English with Dutch subtitles.",
+      "description": "English with Dutch subtitles; immersive supermarket installation by Dries Verhoeven.",
       "link": "https://ita.nl/e/vQQVdOU1"
     },
     {
       "title": "Insel \u2013 Dance with English subtitles",
       "date": "2025-07-17T20:00:00",
       "venue": "Internationaal Theater Amsterdam (Bellevue)",
-      "description": "Italian\u2011language dance performance with English subtitles.",
+      "description": "Italian\u2011language dance with English subtitles.",
       "link": "https://ita.nl/e/yolXZiZ"
     },
     {
@@ -66,7 +66,7 @@
     {
       "title": "Jerry\u2019s Jam Music Nite with Friends \u2013 Badhuis Theater",
       "date": "2025-07-17T20:00:00",
-      "venue": "Mike\u2019s Badhuis Theater, Boerhaaveplein 28, Amsterdam",
+      "venue": "Mike\u2019s Badhuistheater, Boerhaaveplein 28, Amsterdam",
       "description": "Live English music jam night featuring zither & friends.",
       "link": "https://www.badhuistheater.nl"
     },
@@ -79,16 +79,16 @@
     },
     {
       "title": "Mezrab Friday Night Storytelling",
-      "date": "2025-07-19T20:00:00",
+      "date": "2025-07-18T20:00:00",
       "venue": "Mezrab, Veemkade 576, Amsterdam",
-      "description": "Weekly storytelling in English \u2014 from myth to comedy to truth.",
+      "description": "Weekly English\u2011language storytelling night \u2014 true, mythical, comedic tales.",
       "link": "https://mezrab.nl"
     },
     {
       "title": "HAMRAAZ \u2013 Basement Sessions (English-language jazz/classical)",
       "date": "2025-07-18T19:30:00",
       "venue": "Concertgebouw, Choir Hall, Amsterdam",
-      "description": "English-language Basement Sessions jazz/classical series.",
+      "description": "English\u2011language jazz/classical Basement Sessions series.",
       "link": "https://www.concertgebouw.nl/en/concerts-and-tickets"
     },
     {
@@ -139,6 +139,34 @@
       "venue": "Caf\u00e9 De Plakhoek, Amsterdam",
       "description": "A humorous clash of cultures in this English\u2011language comedy night.",
       "link": "https://www.eventbrite.com/e/expats-vs-holland-english-stand-up-comedy-amsterdam-tickets-737995804317"
+    },
+    {
+      "title": "Good Egg Improv: SKIP AD \u2013 Mike\u2019s Badhuistheater",
+      "date": "2025-07-18T20:00:00",
+      "venue": "Mike\u2019s Badhuistheater, Boerhaaveplein 28, Amsterdam",
+      "description": "Improvised YouTube\u2011inspired comedy show in English.",
+      "link": "https://www.badhuistheater.nl"
+    },
+    {
+      "title": "Frascati: Yes\u2011Girl Gavin (English-spoken musical theatre)",
+      "date": "2025-07-20T19:30:00",
+      "venue": "Frascati, Nes 63, Amsterdam",
+      "description": "English\u2011spoken musical\u2011theatre production running through August.",
+      "link": "https://www.frascatitheater.nl/en/agenda"
+    },
+    {
+      "title": "Mozart meets Beethoven \u2013 Maxim Emelyanychev & Orchestre de chambre de Paris",
+      "date": "2025-07-17T20:00:00",
+      "venue": "Concertgebouw, Main Hall, Amsterdam",
+      "description": "Orchestral concert with Mozart Piano Concerto and Beethoven's Symphony No.6.",
+      "link": "https://www.concertgebouw.nl/en/concerts-and-tickets"
+    },
+    {
+      "title": "Mussorgsky & Ravel \u2013 Pictures at an Exhibition, Tzigane",
+      "date": "2025-07-18T20:00:00",
+      "venue": "Concertgebouw, Main Hall, Amsterdam",
+      "description": "Classical concert featuring Mussorgsky & Ravel.",
+      "link": "https://www.concertgebouw.nl/en/concerts-and-tickets"
     }
   ]
 }
