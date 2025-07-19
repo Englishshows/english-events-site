@@ -1,25 +1,144 @@
 {
   "events": [
     {
-      "title": "Expats vs Holland – English Stand‑up Comedy Amsterdam",
-      "date": "2025-07-17T20:00:00",
-      "venue": "Café De Plakhoek, Amsterdam",
-      "description": "A humorous clash of cultures in this English‑language comedy night.",
-      "link": "https://www.eventbrite.com/e/expats-vs-holland-english-stand-up-comedy-amsterdam-tickets-737995804317"
+      "title": "Hadestown \u2013 English Musical at Carr\u00e9",
+      "date": "2025-07-18T19:30:00",
+      "venue": "Koninklijk Theater Carr\u00e9, Amstel 115, Amsterdam",
+      "description": "Award\u2011winning English\u2011language production of Hadestown, running June\u202f20\u2013Aug\u202f24.",
+      "link": "https://carre.nl/en/show/hadestown"
     },
     {
-      "title": "Clink Comedy ALL STARS – Stand‑up Comedy in English",
+      "title": "Everything Must Go \u2013 English with Dutch subtitles",
+      "date": "2025-07-17T19:00:00",
+      "venue": "Internationaal Theater Amsterdam, Grote Zaal",
+      "description": "Immersive supermarket installation by Dries Verhoeven, English with Dutch subtitles.",
+      "link": "https://ita.nl/e/vQQVdOU1"
+    },
+    {
+      "title": "Insel \u2013 Dance with English subtitles",
+      "date": "2025-07-17T20:00:00",
+      "venue": "Internationaal Theater Amsterdam (Bellevue)",
+      "description": "Italian\u2011language dance performance with English subtitles.",
+      "link": "https://ita.nl/e/yolXZiZ"
+    },
+    {
+      "title": "Hardkoor \u2013 Stand\u2011up tragedy concert (English & Dutch surtitles)",
+      "date": "2025-07-17T20:00:00",
+      "venue": "Internationaal Theater Amsterdam",
+      "description": "Stand\u2011up tragedy set to techno music; English surtitles.",
+      "link": "https://ita.nl/e/XdLXBU0"
+    },
+    {
+      "title": "ITA on screen: Le Tartuffe ou l\u2019Hypocrite \u2013 French with English subtitles",
+      "date": "2025-07-17T19:00:00",
+      "venue": "Internationaal Theater Amsterdam (screening)",
+      "description": "Film screening by Com\u00e9die\u2011Fran\u00e7aise, French with English subtitles.",
+      "link": "https://ita.nl/e/AMRgRcg"
+    },
+    {
+      "title": "The Famous Boom Chicago Improv Comedy Show",
+      "date": "2025-07-17T20:00:00",
+      "venue": "Boom Chicago, Rozengracht 117, Amsterdam",
+      "description": "High\u2011energy English improv comedy from Boom Chicago\u2019s main stage cast.",
+      "link": "https://boomchicago.nl"
+    },
+    {
+      "title": "Frascati: SOMA & SKELETON \u2013 Fringe performance (English)",
+      "date": "2025-07-18T20:00:00",
+      "venue": "Frascati, Nes 63, Amsterdam",
+      "description": "Multidisciplinary Fringe show in English part of Amsterdam Fringe Festival.",
+      "link": "https://www.frascatitheater.nl/en/agenda/fringe-soma-and-skeleton-rjss"
+    },
+    {
+      "title": "Frascati: I Never Lie \u2013 Solo Fringe (English)",
+      "date": "2025-07-19T20:00:00",
+      "venue": "Frascati, Nes 63, Amsterdam",
+      "description": "Immersive solo show combining music, visuals & storytelling in English.",
+      "link": "https://www.frascatitheater.nl/en/agenda/2791/agnese-valmaggia/fringe-i-never-lie"
+    },
+    {
+      "title": "Frascati: Yes\u2011Girl Gavin (English\u2011spoken musical theatre)",
+      "date": "2025-07-20T19:30:00",
+      "venue": "Frascati, Nes 63, Amsterdam",
+      "description": "English-spoken musical-theatre production running through August.",
+      "link": "https://www.frascatitheater.nl/en/agenda"
+    },
+    {
+      "title": "Jerry\u2019s Jam Music Nite with Friends \u2013 Badhuis Theater",
+      "date": "2025-07-17T20:00:00",
+      "venue": "Mike\u2019s Badhuis Theater, Boerhaaveplein 28, Amsterdam",
+      "description": "Live English music jam night featuring zither & friends.",
+      "link": "https://www.badhuistheater.nl"
+    },
+    {
+      "title": "Good Egg Improv: SKIP AD \u2013 Badhuis Theater",
+      "date": "2025-07-18T20:00:00",
+      "venue": "Mike\u2019s Badhuis Theater, Boerhaaveplein 28, Amsterdam",
+      "description": "Improvised YouTube-inspired comedy show in English.",
+      "link": "https://www.badhuistheater.nl"
+    },
+    {
+      "title": "Mezrab Friday Night Storytelling",
+      "date": "2025-07-19T20:00:00",
+      "venue": "Mezrab, Veemkade 576, Amsterdam",
+      "description": "Weekly storytelling in English \u2014 from myth to comedy to truth.",
+      "link": "https://mezrab.nl"
+    },
+    {
+      "title": "HAMRAAZ \u2013 Basement Sessions (English-language jazz/classical)",
+      "date": "2025-07-18T19:30:00",
+      "venue": "Concertgebouw, Choir Hall, Amsterdam",
+      "description": "English-language Basement Sessions jazz/classical series.",
+      "link": "https://www.concertgebouw.nl/en/concerts-and-tickets"
+    },
+    {
+      "title": "Sunday Morning Concert \u2013 Concertgebouw",
+      "date": "2025-07-20T11:00:00",
+      "venue": "Concertgebouw, Main Hall, Amsterdam",
+      "description": "English-language Sunday morning chamber/orchestral program.",
+      "link": "https://www.concertgebouw.nl/en/het-zondagochtend-concert"
+    },
+    {
+      "title": "Scala Thursday: International Short Acts",
+      "date": "2025-07-18T20:00:00",
+      "venue": "Scala Theater, Nieuwezijds Voorburgwal 283, Amsterdam",
+      "description": "A mix of multilingual short plays \u2014 2 acts in English this week.",
+      "link": "https://scalatheater.nl"
+    },
+    {
+      "title": "Vondelpark Open Air: English Improv Showcase",
+      "date": "2025-07-20T16:00:00",
+      "venue": "Vondelpark Openluchttheater, Amsterdam",
+      "description": "Free outdoor English improv show as part of Sunday festival.",
+      "link": "https://openluchttheater.nl"
+    },
+    {
+      "title": "Opera: Pell\u00e9as et M\u00e9lisande (English surtitles)",
+      "date": "2025-07-21T20:00:00",
+      "venue": "Dutch National Opera & Ballet, Waterlooplein 22, Amsterdam",
+      "description": "Debussy\u2019s opera with English surtitles throughout.",
+      "link": "https://www.operaballet.nl/en"
+    },
+    {
+      "title": "De Brakke Grond: English-Flemish poetry night",
+      "date": "2025-07-19T20:30:00",
+      "venue": "De Brakke Grond, Nes 45, Amsterdam",
+      "description": "Poets from Flanders & NL share work in English and Flemish.",
+      "link": "https://brakkegrond.nl"
+    },
+    {
+      "title": "Clink Comedy ALL STARS \u2013 English Stand\u2011up (Eventbrite)",
       "date": "2025-07-18T19:30:00",
       "venue": "ClinkNOORD, Van der Pekstraat, Amsterdam Noord",
-      "description": "Premier English comedy night featuring top local and international comedians.",
+      "description": "Top local/international English\u2011language stand\u2011up comedians.",
       "link": "https://www.eventbrite.com/e/clink-comedy-all-stars-standup-comedy-in-english-tickets-784393922337"
     },
-   {
-      "title": "Clink Comedy ALL STARS – Stand‑up Comedy in English",
-      "date": "2025-07-18T19:30:00",
-      "venue": "ClinkNOORD, Van der Pekstraat, Amsterdam Noord",
-      "description": "Premier English comedy night featuring top local and international comedians.",
-      "link": "https://www.eventbrite.com/e/clink-comedy-all-stars-standup-comedy-in-english-tickets-784393922337"
+    {
+      "title": "Expats vs Holland \u2013 English Stand\u2011up Comedy (Eventbrite)",
+      "date": "2025-07-17T20:00:00",
+      "venue": "Caf\u00e9 De Plakhoek, Amsterdam",
+      "description": "A humorous clash of cultures in this English\u2011language comedy night.",
+      "link": "https://www.eventbrite.com/e/expats-vs-holland-english-stand-up-comedy-amsterdam-tickets-737995804317"
     }
   ]
 }
