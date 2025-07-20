@@ -22,11 +22,25 @@
       "link": "https://www.frascatitheater.nl/en/agenda"
     },
     {
+      "title": "Bob Dylan \u2013 Rough and Rowdy Ways Tour",
+      "date": "2025-07-20T20:00:00",
+      "venue": "AFAS Live, Johan Cruijff Boulevard 590, Amsterdam",
+      "description": "Legendary singer-songwriter Bob Dylan performs his latest tour, with English lyrics throughout.",
+      "link": "https://www.afaslive.nl/en/agenda/bob-dylan"
+    },
+    {
       "title": "Opera: Pell\u00e9as et M\u00e9lisande (English surtitles)",
       "date": "2025-07-21T20:00:00",
       "venue": "Dutch National Opera & Ballet, Waterlooplein 22, Amsterdam",
       "description": "Debussy\u2019s opera with English surtitles throughout.",
       "link": "https://www.operaballet.nl/en"
+    },
+    {
+      "title": "Labyrinth Amsterdam: Open Mic Night",
+      "date": "2025-07-21T20:00:00",
+      "venue": "Labyrinth Amsterdam, Amstelveenseweg 53, Amsterdam",
+      "description": "Weekly Open Mic Night with live band, open to all performers. Hosted in English.",
+      "link": "https://labyrinthamsterdam.nl/#events"
     },
     {
       "title": "Hadestown \u2013 English Musical at Carr\u00e9",
@@ -50,10 +64,10 @@
       "link": "https://boomchicago.nl"
     },
     {
-      "title": "Labyrinth Open Mic Monday",
-      "date": "2025-07-22T20:00:00",
-      "venue": "Labyrinth, Amsterdam",
-      "description": "Weekly English-hosted open mic poetry and music night.",
+      "title": "Labyrinth Amsterdam: RnB Night",
+      "date": "2025-07-22T21:00:00",
+      "venue": "Labyrinth Amsterdam, Amstelveenseweg 53, Amsterdam",
+      "description": "Smooth RnB performances with English-speaking hosts and vocalists.",
       "link": "https://labyrinthamsterdam.nl/#events"
     },
     {
@@ -69,13 +83,6 @@
       "venue": "Boom Chicago, Rozengracht 117, Amsterdam",
       "description": "High\u2011energy English improv comedy from Boom Chicago\u2019s main stage cast.",
       "link": "https://boomchicago.nl"
-    },
-    {
-      "title": "Bob Dylan Music & Poetry Night \u2013 Labyrinth",
-      "date": "2025-07-23T20:00:00",
-      "venue": "Labyrinth, Amsterdam",
-      "description": "English-language celebration with live Bob Dylan music and poetry.",
-      "link": "https://labyrinthamsterdam.nl/#events"
     },
     {
       "title": "Hadestown \u2013 English Musical at Carr\u00e9",
@@ -113,13 +120,6 @@
       "link": "https://www.eventbrite.com/e/expats-vs-holland-english-stand-up-comedy-amsterdam-tickets-737995804317"
     },
     {
-      "title": "KNOCK KNOCK \u2013 Soul Food Poetry (Labyrinth)",
-      "date": "2025-07-24T20:00:00",
-      "venue": "Labyrinth, Amsterdam",
-      "description": "English-language spoken word event featuring international artists.",
-      "link": "https://labyrinthamsterdam.nl/#events"
-    },
-    {
       "title": "Hadestown \u2013 English Musical at Carr\u00e9",
       "date": "2025-07-25T19:30:00",
       "venue": "Koninklijk Theater Carr\u00e9, Amstel 115, Amsterdam",
@@ -146,13 +146,6 @@
       "venue": "Mike\u2019s Badhuis Theater, Boerhaaveplein 28, Amsterdam",
       "description": "Improvised YouTube-inspired comedy show in English.",
       "link": "https://www.badhuistheater.nl"
-    },
-    {
-      "title": "Labyrinth Poetry Night",
-      "date": "2025-07-25T20:00:00",
-      "venue": "Labyrinth, Amsterdam",
-      "description": "Monthly poetry night primarily in English.",
-      "link": "https://labyrinthamsterdam.nl/#events"
     },
     {
       "title": "Hadestown \u2013 English Musical at Carr\u00e9",
@@ -197,6 +190,13 @@
       "link": "https://www.badhuistheater.nl"
     },
     {
+      "title": "Labyrinth Amsterdam: Open Mic Night",
+      "date": "2025-07-28T20:00:00",
+      "venue": "Labyrinth Amsterdam, Amstelveenseweg 53, Amsterdam",
+      "description": "Weekly Open Mic Night with live band, open to all performers. Hosted in English.",
+      "link": "https://labyrinthamsterdam.nl/#events"
+    },
+    {
       "title": "Frascati: Yes\u2011Girl Gavin (English\u2011spoken musical theatre)",
       "date": "2025-07-29T19:30:00",
       "venue": "Frascati, Nes 63, Amsterdam",
@@ -230,6 +230,13 @@
       "venue": "Frascati, Nes 63, Amsterdam",
       "description": "English-spoken musical-theatre production running through August.",
       "link": "https://www.frascatitheater.nl/en/agenda"
+    },
+    {
+      "title": "Labyrinth Amsterdam: Poetry Night",
+      "date": "2025-07-31T20:00:00",
+      "venue": "Labyrinth Amsterdam, Amstelveenseweg 53, Amsterdam",
+      "description": "Poetry evening with English-language poets and spoken word artists.",
+      "link": "https://labyrinthamsterdam.nl/#events"
     }
   ]
 }
