@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,6 +21,7 @@
     <section id="event-list">
       <p>Loading events...</p>
     </section>
+    <p id="event-count" style="font-weight: bold; margin-top: 2rem;"></p>
   </main>
 
   <footer>
@@ -33,13 +33,16 @@
       .then(response => response.json())
       .then(data => {
         const eventList = document.getElementById('event-list');
+        const countDisplay = document.getElementById('event-count');
         eventList.innerHTML = '';
 
+        let eventCount = 0;
         const grouped = {};
         data.events.forEach(event => {
           const date = new Date(event.date).toDateString();
           if (!grouped[date]) grouped[date] = [];
           grouped[date].push(event);
+          eventCount++;
         });
 
         const sortedDates = Object.keys(grouped).sort((a, b) => new Date(a) - new Date(b));
@@ -69,6 +72,8 @@
           const spacer = document.createElement('hr');
           eventList.appendChild(spacer);
         });
+
+        countDisplay.textContent = `Total events listed: ${eventCount}`;
       })
       .catch(error => {
         const eventList = document.getElementById('event-list');
@@ -80,3 +85,4 @@
   </script>
 </body>
 </html>
+
