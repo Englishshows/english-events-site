@@ -1,4 +1,3 @@
-
 {
   "events": [
     {
@@ -51,10 +50,10 @@
       "link": "https://boomchicago.nl"
     },
     {
-      "title": "Labyrinth: Open Mic Night (English Spoken)",
-      "date": "2025-07-22T20:30:00",
-      "venue": "Labyrinth, Amstelveenseweg 53, Amsterdam",
-      "description": "Weekly open mic night featuring English spoken word, music & poetry.",
+      "title": "Labyrinth Open Mic Monday",
+      "date": "2025-07-22T20:00:00",
+      "venue": "Labyrinth, Amsterdam",
+      "description": "Weekly English-hosted open mic poetry and music night.",
       "link": "https://labyrinthamsterdam.nl/#events"
     },
     {
@@ -70,6 +69,13 @@
       "venue": "Boom Chicago, Rozengracht 117, Amsterdam",
       "description": "High\u2011energy English improv comedy from Boom Chicago\u2019s main stage cast.",
       "link": "https://boomchicago.nl"
+    },
+    {
+      "title": "Bob Dylan Music & Poetry Night \u2013 Labyrinth",
+      "date": "2025-07-23T20:00:00",
+      "venue": "Labyrinth, Amsterdam",
+      "description": "English-language celebration with live Bob Dylan music and poetry.",
+      "link": "https://labyrinthamsterdam.nl/#events"
     },
     {
       "title": "Hadestown \u2013 English Musical at Carr\u00e9",
@@ -107,6 +113,13 @@
       "link": "https://www.eventbrite.com/e/expats-vs-holland-english-stand-up-comedy-amsterdam-tickets-737995804317"
     },
     {
+      "title": "KNOCK KNOCK \u2013 Soul Food Poetry (Labyrinth)",
+      "date": "2025-07-24T20:00:00",
+      "venue": "Labyrinth, Amsterdam",
+      "description": "English-language spoken word event featuring international artists.",
+      "link": "https://labyrinthamsterdam.nl/#events"
+    },
+    {
       "title": "Hadestown \u2013 English Musical at Carr\u00e9",
       "date": "2025-07-25T19:30:00",
       "venue": "Koninklijk Theater Carr\u00e9, Amstel 115, Amsterdam",
@@ -135,10 +148,10 @@
       "link": "https://www.badhuistheater.nl"
     },
     {
-      "title": "Labyrinth: Poetry Night (Mostly English)",
-      "date": "2025-07-25T20:30:00",
-      "venue": "Labyrinth, Amstelveenseweg 53, Amsterdam",
-      "description": "Poetry night with international performers, mostly English-language.",
+      "title": "Labyrinth Poetry Night",
+      "date": "2025-07-25T20:00:00",
+      "venue": "Labyrinth, Amsterdam",
+      "description": "Monthly poetry night primarily in English.",
       "link": "https://labyrinthamsterdam.nl/#events"
     },
     {
