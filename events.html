@@ -36,9 +36,17 @@
         const countDisplay = document.getElementById('event-count');
         eventList.innerHTML = '';
 
+        // Only keep events from today onward
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const upcoming = data.events.filter(event => {
+          const eventDate = new Date(event.date);
+          return eventDate >= today;
+        });
+
         let eventCount = 0;
         const grouped = {};
-        data.events.forEach(event => {
+        upcoming.forEach(event => {
           const date = new Date(event.date).toDateString();
           if (!grouped[date]) grouped[date] = [];
           grouped[date].push(event);
