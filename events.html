@@ -1,52 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Events | Amsterdam English Events</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>Upcoming Events</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="events.html">Events</a>
-    </nav>
-  </header>
+<script>
+  fetch('events.json')
+    .then(response => response.json())
+    .then(data => {
+      const eventList = document.getElementById('event-list');
+      eventList.innerHTML = '';
 
-  <main>
-    <section id="event-list">
-      <p>Loading events...</p>
-    </section>
-  </main>
+      // Group events by date
+      const grouped = {};
+      data.events.forEach(event => {
+        const date = new Date(event.date).toDateString(); // e.g., "Sun Jul 20 2025"
+        if (!grouped[date]) grouped[date] = [];
+        grouped[date].push(event);
+      });
 
-  <footer>
-    <p>&copy; 2025 Amsterdam English Events</p>
-  </footer>
+      // Sort dates
+      const sortedDates = Object.keys(grouped).sort((a, b) => new Date(a) - new Date(b));
 
-  <script>
-    fetch('events.json')
-      .then(response => response.json())
-      .then(data => {
-        const eventList = document.getElementById('event-list');
-        eventList.innerHTML = '';
-        data.events.forEach(event => {
+      // Render each date group
+      sortedDates.forEach(date => {
+        const dayHeader = document.createElement('h2');
+        dayHeader.textContent = new Date(date).toLocaleDateString(undefined, {
+          weekday: 'long',
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        });
+        eventList.appendChild(dayHeader);
+
+        grouped[date].forEach(event => {
           const div = document.createElement('div');
           div.className = 'event';
           div.innerHTML = `
             <h3>${event.title}</h3>
-            <p><strong>Date:</strong> ${event.date}</p>
             <p><strong>Venue:</strong> ${event.venue}</p>
             <p>${event.description}</p>
+            <p><a href="${event.link}" target="_blank">More info</a></p>
           `;
           eventList.appendChild(div);
         });
-      })
-      .catch(error => {
-        document.getElementById('event-list').innerHTML = '<p>Error loading events.</p>';
-        console.error(error);
+
+        // Optional spacer
+        const spacer = document.createElement('hr');
+        eventList.appendChild(spacer);
       });
-  </script>
-</body>
-</html>
+    })
+    .catch(error => {
+      document.getElementById('event-list').innerHTML = '<p>Error loading events.</p>';
+      console.error(error);
+    });
+</script>
+
