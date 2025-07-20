@@ -1,19 +1,6 @@
+
 {
   "events": [
-    {
-      "title": "Frascati: I Never Lie \u2013 Solo Fringe (English)",
-      "date": "2025-07-19T20:00:00",
-      "venue": "Frascati, Nes 63, Amsterdam",
-      "description": "Immersive solo show combining music, visuals & storytelling in English.",
-      "link": "https://www.frascatitheater.nl/en/agenda/2791/agnese-valmaggia/fringe-i-never-lie"
-    },
-    {
-      "title": "De Brakke Grond: English-Flemish poetry night",
-      "date": "2025-07-19T20:30:00",
-      "venue": "De Brakke Grond, Nes 45, Amsterdam",
-      "description": "Poets from Flanders & NL share work in English and Flemish.",
-      "link": "https://brakkegrond.nl"
-    },
     {
       "title": "Sunday Morning Concert \u2013 Concertgebouw",
       "date": "2025-07-20T11:00:00",
@@ -62,6 +49,13 @@
       "venue": "Boom Chicago, Rozengracht 117, Amsterdam",
       "description": "High\u2011energy English improv comedy from Boom Chicago\u2019s main stage cast.",
       "link": "https://boomchicago.nl"
+    },
+    {
+      "title": "Labyrinth: Open Mic Night (English Spoken)",
+      "date": "2025-07-22T20:30:00",
+      "venue": "Labyrinth, Amstelveenseweg 53, Amsterdam",
+      "description": "Weekly open mic night featuring English spoken word, music & poetry.",
+      "link": "https://labyrinthamsterdam.nl/#events"
     },
     {
       "title": "Hadestown \u2013 English Musical at Carr\u00e9",
@@ -139,6 +133,13 @@
       "venue": "Mike\u2019s Badhuis Theater, Boerhaaveplein 28, Amsterdam",
       "description": "Improvised YouTube-inspired comedy show in English.",
       "link": "https://www.badhuistheater.nl"
+    },
+    {
+      "title": "Labyrinth: Poetry Night (Mostly English)",
+      "date": "2025-07-25T20:30:00",
+      "venue": "Labyrinth, Amstelveenseweg 53, Amsterdam",
+      "description": "Poetry night with international performers, mostly English-language.",
+      "link": "https://labyrinthamsterdam.nl/#events"
     },
     {
       "title": "Hadestown \u2013 English Musical at Carr\u00e9",
