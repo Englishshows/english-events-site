@@ -1,30 +1,50 @@
 body {
   font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f9f9f9;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 1rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+  background: #fafafa;
+  color: #222;
 }
 
-header {
-  background: #333;
-  color: white;
-  padding: 1rem;
+h1 {
+  font-size: 18px;
+  margin-bottom: 1rem;
 }
 
-nav a {
-  color: white;
-  margin-right: 1rem;
-  text-decoration: none;
-}
-
-main {
-  padding: 1rem;
+h2 {
+  font-size: 16px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .event {
-  background: white;
-  padding: 1rem;
   margin-bottom: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding-left: 10px;
+  border-left: 2px solid #ccc;
+}
+
+.event-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.event-venue,
+.event-description,
+.event-source {
+  font-size: 13px;
+  margin-bottom: 0.25rem;
+}
+
+.event-link {
+  font-size: 13px;
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.event-link:hover {
+  text-decoration: underline;
 }
