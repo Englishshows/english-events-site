@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,29 +38,38 @@
         let eventCount = 0;
         const grouped = {};
         data.events.forEach(event => {
-          const date = new Date(event.date).toDateString();
-          if (!grouped[date]) grouped[date] = [];
-          grouped[date].push(event);
+          const date = new Date(event.date);
+          const dayKey = date.toDateString();
+          if (!grouped[dayKey]) grouped[dayKey] = [];
+          grouped[dayKey].push(event);
           eventCount++;
         });
 
         const sortedDates = Object.keys(grouped).sort((a, b) => new Date(a) - new Date(b));
 
-        sortedDates.forEach(date => {
-          const dayHeader = document.createElement('h2');
-          dayHeader.textContent = new Date(date).toLocaleDateString(undefined, {
+        sortedDates.forEach(dayKey => {
+          const readableDate = new Date(dayKey).toLocaleDateString(undefined, {
             weekday: 'long',
             year: 'numeric',
             month: 'long',
             day: 'numeric'
           });
+          const dayHeader = document.createElement('h2');
+          dayHeader.textContent = readableDate;
           eventList.appendChild(dayHeader);
 
-          grouped[date].forEach(event => {
+          grouped[dayKey].forEach(event => {
+            const dateObj = new Date(event.date);
+            const timeString = dateObj.toLocaleTimeString(undefined, {
+              hour: '2-digit',
+              minute: '2-digit',
+              hour12: false
+            });
             const div = document.createElement('div');
             div.className = 'event';
             div.innerHTML = `
               <h3>${event.title}</h3>
+              <p><strong>Time:</strong> ${timeString}</p>
               <p><strong>Venue:</strong> ${event.venue}</p>
               <p>${event.description}</p>
               <p><a href="${event.link}" target="_blank">More info</a></p>
@@ -85,4 +93,3 @@
   </script>
 </body>
 </html>
-
